@@ -7,7 +7,7 @@ long long Symbol(long long n,long long k){
         return 1;
         }
     else{
-        return Symbol(n,k)=Symbol(n-1, k-1) + Symbol(n-1,k);
+        return Symbol(n-1, k-1) + Symbol(n-1,k);
     }
 
 }
