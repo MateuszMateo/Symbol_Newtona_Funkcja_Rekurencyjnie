@@ -15,8 +15,8 @@ long long Symbol(long long n,long long k){
 int main()
 {
     cout << "Podaj wartosci" << endl;
-    int n,k;
-    cin >>k>>n;
+    long long n,k;
+    cin >>n>>k;
     cout << Symbol(n,k)<<endl;
     return 0;
 }
