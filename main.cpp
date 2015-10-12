@@ -3,7 +3,7 @@
 using namespace std;
 
 long long Symbol(long long n,long long k){
-    if(k==0,k==n){
+    if(k==0 or k==n){
         return 1;
         }
     else{
